@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Demo Launching Activities</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Activity2">Activity 2</string>
+    <string name="btnActivity2">Start Activity 2</string>
+    <string name="btnOk">OK</string>
+    <string name="btnNoIdea">No Idea</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnDialoog">Toon Dialoogvenster</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_explicit">ExplicitActivity</string>
+
+</resources>

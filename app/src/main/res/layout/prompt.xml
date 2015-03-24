@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <CheckedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geef jouw score door"
+        android:textSize="44px"
+        android:id="@+id/txtScoreInstructies"
+        android:layout_below="@+id/txtTitle"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NMCT"
+        android:textSize="44px"
+        android:id="@+id/txtTitle"
+        android:checked="false" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtScore"
+        android:layout_below="@+id/txtScoreInstructies"
+        android:layout_alignParentStart="true"
+        android:text="jouw score" />
+
+    <CheckedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/20"
+        android:id="@+id/txtMaxScore"
+        android:layout_alignTop="@+id/txtScore"
+        android:layout_toEndOf="@+id/txtScore"
+        android:layout_alignBottom="@+id/txtScore"
+        android:checked="false" />
+
+
+</RelativeLayout>
